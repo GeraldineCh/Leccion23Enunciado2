@@ -1,0 +1,78 @@
+/*Caja título*/
+#contenedor1 {
+	font-family: "Courier", sans-serif;
+	margin: 50 0px;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+/*Caja linea*/
+#linea {
+	height: 5px;
+	width: 65px;
+	background-color: black;
+	margin-left: 20px;
+    margin-top: 5px;
+}
+
+/*Caja de coders*/
+#contenedor2 {
+	width: 800px;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  display:inline-block;
+}
+
+figure {
+  margin:0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+span.nombre {
+  margin: 0;
+  width: 200px;
+  height: 50px;
+  text-align: right;
+  font-family: "Courier", sans-serif;
+  margin-left: -55%;
+  margin-top: 90%;
+  font-size: 1rem;
+  color:black;
+  font-size: 15px;
+  font-weight: bolder;
+  color:white;
+  -webkit-text-fill-color:white;
+  position:absolute;
+  z-index: 1000;
+}
+
+img.image {
+  display:inline-block;
+  text-align: center;
+  width:200px;
+  height:200px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+div.coder {
+  display:inline-block;
+  text-align: center;
+  width:200px;
+  height:200px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
